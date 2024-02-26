@@ -1,0 +1,43 @@
+@font-face{  
+  font-family: mainFont;
+  src: url(./assets/fonts/BOOTLE__.TTF);
+}
+
+body {
+  background: #181818;
+  color: #fff;
+  font-family: mainFont;
+  text-shadow: 3px 3px 0px rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-image: url('./assets/styles/noise-dark.png');
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 0 2px #ffffff59;
+  border-color: #7a7167; 
+  margin-top: 25px;
+  box-shadow: 8px 8px 3px rgba(0, 0, 0, 0.212);
+  background-image: url('./assets/styles/noise-light.png'), linear-gradient(to top, #9b9b9b, #494848);
+}
+
+.image-container {
+  margin-top: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  border-radius: 5px;
+  height: auto;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.514);
+}
